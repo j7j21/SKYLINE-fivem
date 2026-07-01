@@ -1,0 +1,30 @@
+1) 用OpenIV导出
+X:\Grand Theft Auto V\update\update.rpf\common\data\dlclist.xml 文件
+然后用记事本打开并添加下面这行
+<Item>dlcpacks:\skyline\</Item>
+保存再替换。
+----------------------------------------------------------------
+2) 用OpenIV导出
+X:\Grand Theft Auto V\update\update.rpf\common\data\extratitleupdatedata.meta 文件
+然后用记事本打开并添加下面这行
+<Item type="SExtraTitleUpdateMount">
+			<deviceName>dlc_SKYLINE:/</deviceName>
+			<path>update:/dlc_patch/SKYLINE/</path>
+		</Item>
+保存再替换。
+----------------------------------------------------------------
+3) 用OpenIV在
+X:\Grand Theft Auto V\update\update.rpf\dlc_patch\
+创建个名为skyline的文件夹,然后把content.xml放进去.
+----------------------------------------------------------------
+4) 把skyline文件夹复制到
+X:\Grand Theft Auto V\update\x64\dlcpacks
+你可以用Simple Trainer 按名称刷载具来刷车，输入SKYLINE即可。
+----------------------------------------------------------------
+完成！希望你喜欢
+
+[YCA Modder Group]
+
+请不要拿到淘宝上售卖!
+
+关注YCA吧或aige吧获取更多新mod信息
